@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vedarc-p1/static/css/main.073c9b0a.css",
+    "main.js": "/vedarc-p1/static/js/main.786f0160.js",
+    "static/js/787.6af42d2c.chunk.js": "/vedarc-p1/static/js/787.6af42d2c.chunk.js",
+    "static/media/home.jpg": "/vedarc-p1/static/media/home.5c0bbbf03bb037700ee2.jpg",
+    "static/media/logo.svg": "/vedarc-p1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vedarc-p1/index.html",
+    "main.073c9b0a.css.map": "/vedarc-p1/static/css/main.073c9b0a.css.map",
+    "main.786f0160.js.map": "/vedarc-p1/static/js/main.786f0160.js.map",
+    "787.6af42d2c.chunk.js.map": "/vedarc-p1/static/js/787.6af42d2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.786f0160.js"
+  ]
+}
