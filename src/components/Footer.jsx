@@ -13,62 +13,31 @@ export default function Footer() {
     color: "white",
   });
   return (
-    <div>
-      <footer>
-        <Box sx={{ background: "black", height: "500px" }}>
-          <Stack direction={{ xs: "row", md: "row" }} p={7}>
-            <Box flex={1}>
-              <Typography variant="h6" color={"white"} align={"center"}>
-                Visit us
-              </Typography>
-              <Divider />
-              <Typography color={"white"} align={"center"}>
-                Wellington Central, Wellington 6011
-              </Typography>
-              <Typography color={"white"} align={"center"}>
-                <Link to="/About">Contact Us </Link>
-              </Typography>{" "}
-            </Box>
-            <Box flex={1}>
-              {" "}
-              <Typography variant="h6" color={"white"} align={"center"}>
-                Data Policy
-              </Typography>{" "}
-              <Typography color={"white"} align={"center"}>
-                Cookies
-              </Typography>{" "}
-              <Typography color={"white"} align={"center"}>
-                Data Safety
-              </Typography>
-            </Box>
-
-            <Box>
-              {" "}
-              <Typography color={"white"} align={"center"} variant="h6">
-                Follow us
-              </Typography>{" "}
-              <SocialBox>
-                <FacebookIcon />
-                <Instagram />
-                <Twitter />
-                <LinkedIn />
-              </SocialBox>
-            </Box>
-          </Stack>
-          <address>
-            {" "}
-            <Typography
-              variant="body2"
-              color={"white"}
-              align={"center"}
-              pt={20}
-            >
-              {" "}
-              Copyright © 2022 VedArc Inc. All rights reserved.
-            </Typography>
-          </address>
-        </Box>
-      </footer>
-    </div>
+    <footer style={{ background: "black", p: 10 }}>
+      <Box p={4}>
+        <Typography variant="h6" color={"white"}>
+          Follow us
+        </Typography>
+        <SocialBox>
+          <FacebookIcon />
+          <Instagram />
+          <Twitter />
+          <LinkedIn />
+        </SocialBox>
+      </Box>
+      <address>
+        {" "}
+        <Typography
+          variant="body2"
+          color={"white"}
+          align={"center"}
+          pt={5}
+          pb={2}
+        >
+          {" "}
+          Copyright © 2022 VedArc Inc. All rights reserved.
+        </Typography>
+      </address>
+    </footer>
   );
 }

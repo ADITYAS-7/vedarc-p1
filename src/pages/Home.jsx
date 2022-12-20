@@ -23,7 +23,7 @@ export default function Home() {
       />
       <Categories />
       <Sample />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
